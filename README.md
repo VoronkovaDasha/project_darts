@@ -1,1 +1,1 @@
-# project_darts
+# Project: Differentiable Architecture Search
