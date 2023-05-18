@@ -8,7 +8,6 @@
 
 ## How to run
 python3 architecture_search.py --n_channels 16 --n_epochs 40 --use_xi
-where:
 - --n_channels - number of channels for the first cell in the whole architecture;
 - --n_epochs - number of epochs to train;
 - --use_xi - whether to perform first-order or second-order optimization.
