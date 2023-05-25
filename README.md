@@ -1,4 +1,14 @@
-# Project: Differentiable Architecture Search
+# DA060492 Course Project: Differentiable Architecture Search
+
+This repsitory contains the source code to reeproduce the experiments from the final report on DA060492 Course Project: Differentiable Architecture Search.
+
+## Project Description
+
+Neural Architecture Search is a part of the AutoML field where a large number of various algorithms have emerged in recent years. One of the remarkable approaches is DARTS [Liu, H., Simonyan, K., and Yang., Y. Darts: Differentiable
+architecture search. ICLR, 2019b.], differentiable architecture search. In this work, the authors managed to relax the discrete search space to the continuous one and applied gradient-based optimization to architecture cell search. The models learned with DARTS achieve competitive performance on several tasks while requiring sufficiently reduced computational cost.
+
+The goal of this project is to implement the DARTS method and evaluate the learned model. More precisely, the project objectives include the choice of an appropriate convolutional architecture and a reasonable search space, implementation bilevel optimization and evaluation of the learned architecture on a dataset of small size (e.g. CIFAR10).
+
 
 - DARTS_project.pdf - report for assignment "First project status report";
 - DARTS_project_second_report.pdf - report for assignment "Second project status report";
