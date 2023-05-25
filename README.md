@@ -12,9 +12,14 @@ The goal of this project is to implement the DARTS method and evaluate the learn
 ## Overview of Results
 
 First, we learn the architectures of normal and reduction cells using our implementation of DARTS approach on CIFAR10 dataset with both first- and second-order approximation. 
+
 Second, we compare the performance and computational costs of the learned cells for first- and second-order approximation. Cells learned with first-order approximation achieve 71.42% validation accuraccy vs 74.64% validation accuracy for cells learned with second-order approximation.
+
 Third, we compare performance of the final network architecures trained on CIFAR10 for both types of learned cells. Cells learned with first-order approximation achieve 78.28% test accuraccy vs 79.67% for cells learned with second-order approximation.
+
 Finally, we compare results for the tranfer of the learned cells to CIFAR100 dataset. We obtain 38.45% test accuracy for first-order approximation and 46.41% for second-order approximation.
+
+Overall, we confirm that second-order approximation results in more accurate models but also is more computationally expensive.
 
 ## Content
 
