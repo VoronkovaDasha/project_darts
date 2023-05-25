@@ -37,8 +37,10 @@ During training, training and validation losses and accuracies are saved to trai
 Also, during training, the values of $\alpha_{\text{normal}}$, $\alpha_{\text{reduce}}$ are stored in the .npy files (alpha_normal_history.npy, alpha_reduce_history.npy).
 All files are saved to the current working directory.
 
-2. To train the final network architecture, run: python3 train_network.py --n_epochs 600 --alpha_normal_path 'alpha_normal_history.npy' --alpha_reduce_path 'alpha_reduce_history.npy' --alpha_epoch 40
+2. To train the final network architecture, run: python3 train_network.py --dataset CIFAR10 --n_epochs 600 --alpha_normal_path 'alpha_normal_history.npy' --alpha_reduce_path 'alpha_reduce_history.npy' --alpha_epoch 40 --batch_size 64
+- --dataset - dataset to use, CIFAR10 or CIFAR100;
 - --n_epochs - number of epochs to train;
 - --alpha_normal_path - path to file "alpha_normal_history.npy" from step 1;
 - --alpha_reduce_path - path to file "alpha_reduce_history.npy" from step 1;
-- --alpha_epoch - number of chekpoint for alpha to use.
+- --alpha_epoch - number of chekpoint for alpha to use;
+- --batch_size - batch_size to use.
