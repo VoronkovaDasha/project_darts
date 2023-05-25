@@ -34,6 +34,8 @@ Overall, our results confirm that second-order approximation results in more acc
 
 ## How to run
 
+Put files operations_cell_network.py, train_arch.py, train_network.py into the one folder.
+
 1. To train cell architecture, run: python3 train_arch.py --n_epochs 40 --use_xi
 - --n_epochs - number of epochs to train;
 - --use_xi - perform second-order approximation (omit for first-order approximation).
