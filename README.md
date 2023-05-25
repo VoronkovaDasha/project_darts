@@ -48,3 +48,4 @@ All files are saved to the current working directory.
 - --alpha_reduce_path - path to file "alpha_reduce_history.npy" from step 1;
 - --alpha_epoch - number of chekpoint for alpha to use;
 - --batch_size - batch_size to use.
+During training, training and validation losses and accuracies are saved to net_train_stats_{dataset}.csv in the current working directory.
