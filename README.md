@@ -19,7 +19,7 @@ Third, we compare performance of the final network architecures trained on CIFAR
 
 Finally, we compare results for the tranfer of the learned cells to CIFAR100 dataset. We obtain 38.45% test accuracy for first-order approximation and 46.41% for second-order approximation.
 
-Overall, we confirm that second-order approximation results in more accurate models but also is more computationally expensive.
+Overall, our results confirm that second-order approximation results in more accurate models but also is more computationally expensive.
 
 ## Content
 
